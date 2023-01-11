@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: tan;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: black;
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+/* form css */
+
+.formTitle {
+  margin-top: 50px;
+  color: #004b51;
+  margin-left: 350px;
+}
+
+.form-container {
+  background-color: #dedede;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* table  */
+.userTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+/* /table */
